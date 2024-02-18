@@ -78,6 +78,8 @@ a{
     display: flex;
     justify-content: center;
     /* border: 1px solid purple; */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nav-content{
@@ -129,8 +131,8 @@ a{
 
 .hero-image div{
     background: rgb(31, 31, 31);
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 600px;
     text-align: center;
     color: white;
     display: flex;
@@ -163,12 +165,12 @@ a{
 
 .information-header{
     /* border: 1px solid red; */
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
 #blueboxes{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     margin-top: 20px;
     gap:50px;
