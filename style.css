@@ -36,9 +36,9 @@ a{
 .button-accent{
     background-color: #3882f6;
     color: #e5e7eb;
-    padding: 10px 30px 10px;
-    border: 1px solid #e5e7eb;
-    border-radius: 20px;
+    padding: 5px 30px 5px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .information-header{
@@ -53,6 +53,24 @@ a{
     font-style: italic;
     color: #1F2937;
 }
+
+
+.cta-bold-text{
+    font-size: 22px;
+    color: #e5e7eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cta-subtext{
+    font-size: 16px;
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+
+
+
 
 /* nav styling */
 
@@ -172,19 +190,19 @@ a{
 
 
 .bluebox{
-    border: 4px solid rgb(42, 127, 255);
-    border-radius: 6px;
+    border: 4px solid rgb(79, 150, 255);
+    border-radius: 10px;
     width: 150px;
     height: 150px;
 
 }
 
-/* Quote section */
+/* Section three || Quote section */
 
 
 .quote-section{
     background-color: #e5e7eb;
-    padding: 150px;
+    padding: 120px 150px 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,8 +234,42 @@ a{
 
 
 
+/* Section four || Cta */
+     
+.cta-section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
 
+.cta-container{
+    border: 1px solid #3882f6;
+    padding:25px 90px 45px;
+    border-radius: 12px;
+    background-color: #3882f6;
+    display: flex;
+    min-width: 900px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 20px 2px  rgb(199, 199, 199);
+}
 
+.cta-text-container{
+    /* border: 1px solid red; */
+    flex: 2;
+    padding: 0;
+    line-height: 10px;
+}
+
+.cta-button-container{
+    /* border: 1px solid red; */
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 23px;
+}
 
 
 
